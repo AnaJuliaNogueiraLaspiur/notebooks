@@ -1,24 +1,10 @@
-Simulador de Evaluaciones por Rondas
+✨Sistema de Evaluación de Proyectos Estudiantiles✨
 
+## CONTEXTO
 Este programa permite simular la evaluación de varios equipos en distintas rondas. Cada equipo recibe puntos según tres criterios: innovación, presentación y errores. Al final, se muestra un ranking con los resultados.
-Basicamente lo que hace el programa lo que haces es:
-- Toma los datos de evaluación de cada ronda.
-- Asigna puntos según este criterio:
-- Innovación: 3 puntos por unidad.
-- Presentación: 1 punto por unidad.
-- Errores: resta 1 punto si hubo errores.
-- Calcula los totales por equipo.
-- Muestra quién fue el mejor equipo de cada ronda (llamado "mer").
-- Imprime una tabla con los resultados.
-Todas las funciones están en src/funciones.py. Algunas de las más importantes son:
-- simular_rondas: ejecuta todas las rondas.
-- actualizar_estadisticas: calcula los puntos de cada ronda.
-- mostrar_ranking: muestra los resultados ordenados.
 
-Mis archivos son:
-- ACTIVIDAD1.ipynb: es el archivo principal que ejecuta la simulación.
-- src/funciones.py: contiene las funciones que hacen los cálculos y muestran los resultados.
+## BREVE EXPLICACION DEL PROGRAMA 
+Lo que hace la aplicacion es procesar los datos contenidos en el archivo ACTIVIDAD1.ipynb, utilizando metodos y estrucutas de python como listas y diccionarios para organizar los datos. Para recorrer las estructras de datos use el for que me permite ejecutar distintas acciones sobre cada elemento como por ejemplo actualizar estadisticas acumuladas, sacar el puntaje de cada ronda, determinar el mejor equipo (mer). Es decir, lo use para procesar los datos ronda por ronda y equipo por equipo.
+Ademas use metodos como .items() para recorrer los equipos evaluados en una ronda (lo use dentro de un for), .sorted() para ordenar el ranking por puntos, .filter() para excluir equipos con puntaje negativo y enumerate() para numerar las rondas en el bucle principal.
 
-Lo que necesito para usarlo es unicamente tener Python instalado. No se use librerías externas.
-
-
+Las funciones que hacen todos los calculos estan en el archivo src/funciones.py
