@@ -33,4 +33,5 @@ También se utilizan métodos como:
 
 ## FUNCIONES DEL PROGRAMA
 
-Las funciones que hacen todos los cálculos están en el archivo:
+Las funciones que hacen todos los cálculos están en el archivo: 
+- `src/funciones.py`
