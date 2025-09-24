@@ -1,5 +1,6 @@
 <div align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%23FF69B4&size=50&center=true&vCenter=true&height=60&width=600&lines=Proyectos+Estudiantiles!" alt="Title"></div>
+
 ---
 
 ## CONTEXTO
