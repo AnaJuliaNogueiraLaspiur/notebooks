@@ -24,7 +24,7 @@ Lo que hace la aplicación es procesar los datos contenidos en el archivo `ACTIV
 
 También se utilizan métodos como:
 
-- `.items()` → para recorrer los equipos evaluados en una ronda (dentro de un `for`).
+- `.items()` → para recorrer los equipos evaluados en una ronda en el diccionario (dentro de un `for`) teniendo tanto la clave como el valor al mismo tiempo.
 - `sorted()` → para ordenar el ranking por puntos.
 - `filter()` → para excluir equipos con puntaje negativo.
 - `enumerate()` → para numerar las rondas en el bucle principal.
